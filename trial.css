@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 1440px;
+    font-size: 15px;
+}
+.container{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.sedans{
+    width:33.33%;
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.image{
+    padding: 10px 0 ;
+}
+.Heading{
+    padding: 10px 0 ;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 15px;
+}
+.Heading h1{
+    color:hsl(0, 0%, 95%);
+}
+.Text{
+    width: 80%;
+    padding: 10px 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.Text p{
+    font-size: 15px;
+    line-height: 25px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.Button{
+    padding-top:60px ;
+    padding-bottom: 10px;
+}
+.Button button{
+    padding:10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    color:hsl(31, 77%, 52%) ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.suvs{
+    width:33.33%;
+    padding: 40px;
+    background-color:  hsl(184, 100%, 22%);
+}
+.one{
+    padding: 10px 0 ;
+
+}
+.two{
+    padding: 10px 0 ;
+
+}
+.three{
+    width:90%;
+}
+.three p{
+    line-height: 25px;
+}
+.four button{
+    color:hsl(184, 100%, 22%)
+}
+.luxury{
+    width:33.33%;
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.five{
+    width: 90%;
+}
+.six button{
+    color: hsl(179, 100%, 13%);
+} 
+.Button button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+@media only screen and ( max-width:375px ){
+    .container{
+        flex-direction: column;
+    }
+    .sedans{
+        width: 100%;
+        border-radius: 10px 10px 0 0 ;
+    }
+    .suvs{
+        width: 100%;
+    }
+    .luxury{
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+}
+@media only screen and ( max-width:1300px ){
+    .container{
+        flex-direction: column;
+    }
+    .sedans{
+        width: 100%;
+        border-radius: 10px 10px 0 0 ;
+    }
+    .suvs{
+        width: 100%;
+    }
+    .luxury{
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+}
